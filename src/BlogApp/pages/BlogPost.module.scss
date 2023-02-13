@@ -1,0 +1,18 @@
+.commentsSection {
+    margin: 0 auto;
+    border-top: 1px solid #044a61;
+    width: 50%;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

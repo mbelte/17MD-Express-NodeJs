@@ -1,0 +1,76 @@
+.card {
+    background-color: #ededed;
+    border-radius: 3px;
+    box-shadow: 
+        rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+        rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    overflow: hidden;
+    width: 100%;
+    transition: box-shadow 0.5s;
+
+    &:hover {        
+        box-shadow: 
+            rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+            rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+}
+
+.imageWrap {
+
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 16px;
+}
+
+.header {
+
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+
+    & > a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.subHeading {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.text {
+    padding: 10px 0;
+}
+
+.footer {
+    text-align: end;
+
+    & > a {
+        color: inherit;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
